@@ -1,0 +1,78 @@
+{
+  "uid" : "b05c10fd07ae2b83",
+  "name" : "登录失败用例-openId为空",
+  "fullName" : "testcase.test_login.TestLogin#test_yml",
+  "historyId" : "62ebfc9838685827c6c77b9a9c19210a",
+  "time" : {
+    "start" : 1622535567897,
+    "stop" : 1622535567992,
+    "duration" : 95
+  },
+  "description" : "请求body==>> {'appId': '10001', 'openId': ''}",
+  "descriptionHtml" : "<p>请求body==&gt;&gt; {'appId': '10001', 'openId': ''}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "请求body==>> {'appId': '10001', 'openId': ''}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "58e04211d930e88c",
+      "name" : "log",
+      "source" : "58e04211d930e88c.txt",
+      "type" : "text/plain",
+      "size" : 146
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "游客登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "42077-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "login",
+    "value" : "{'case_name': '登录失败用例-openId为空', 'url': '/uc/v1/login/local', 'data': {'appId': '10001', 'openId': ''}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'openId为空'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b05c10fd07ae2b83.json",
+  "parameterValues" : [ "{'case_name': '登录失败用例-openId为空', 'url': '/uc/v1/login/local', 'data': {'appId': '10001', 'openId': ''}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'openId为空'}}" ]
+}

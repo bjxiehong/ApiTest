@@ -1,0 +1,74 @@
+#刷新Token测试用例
+---
+#测试用例名称
+"case_name": "成功用例"
+#url地址
+"url": "/uc/v1/token"
+#data
+"data":
+  gid: ""
+  refreshToken: ""
+#期望结果
+"except":
+  code: 200
+  errCode: 0
+  errDesc: "成功"
+#刷新Token测试用例
+---
+#测试用例名称
+"case_name": "失败用例-gid为空"
+#url地址
+"url": "/uc/v1/token"
+#data
+"data":
+  gid: ""
+  refreshToken: "38b3a3a6f-d6d6-5bac-afd2-523de4e3a86"
+#期望结果
+"except":
+  code: 200
+  errCode: 1001
+  errDesc: "gid为空"
+---
+#测试用例名称
+"case_name": "失败用例-登录已过期"
+#url地址
+"url": "/uc/v1/token"
+#data
+"data":
+  gid: "86052724"
+  refreshToken: "wrong"
+#期望结果
+"except":
+  code: 200
+  errCode: 1004
+  errDesc: "登录认证过期，请重新登录(10042)"
+---
+#测试用例名称
+"case_name": "失败用例-refreshToken为空"
+#url地址
+"url": "/uc/v1/token"
+#data
+"data":
+  gid: "86052724"
+  refreshToken: ""
+
+#期望结果
+"except":
+  code: 200
+  errCode: 1001
+  errDesc: "refreshToken为空"
+
+---
+#测试用例名称
+"case_name": "失败用例-gid为负数"
+#url地址
+"url": "/uc/v1/token"
+#data
+"data":
+  gid: "-100"
+  refreshToken: "38b3a3a6f-d6d6-5bac-afd2-523de4e3a86"
+#期望结果
+"except":
+  code: 200
+  errCode: 1001
+  errDesc: "gid必须为大于等于0的整数"

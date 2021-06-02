@@ -1,0 +1,105 @@
+{
+  "uid" : "dd5b1b188aa83c10",
+  "name" : "失败用例-gid为空",
+  "fullName" : "testcase.test_refreshToken.Test_refreToken#test_refreshtoken",
+  "historyId" : "95aec0a7ef36584074c69b1d05517faf",
+  "time" : {
+    "start" : 1622604112053,
+    "stop" : 1622604112231,
+    "duration" : 178
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1622604111778,
+      "stop" : 1622604111914,
+      "duration" : 136
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "27436721dbbf0345",
+      "name" : "log",
+      "source" : "27436721dbbf0345.txt",
+      "type" : "text/plain",
+      "size" : 181
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1622604112597,
+      "stop" : 1622604112597,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "刷新token"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_refreshToken"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_refreToken"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "51820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_refreshToken"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "refreshtoken",
+    "value" : "{'case_name': '失败用例-gid为空', 'url': '/uc/v1/token', 'data': {'gid': '', 'refreshToken': '38b3a3a6f-d6d6-5bac-afd2-523de4e3a86'}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'gid为空'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd5b1b188aa83c10.json",
+  "parameterValues" : [ "{'case_name': '失败用例-gid为空', 'url': '/uc/v1/token', 'data': {'gid': '', 'refreshToken': '38b3a3a6f-d6d6-5bac-afd2-523de4e3a86'}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'gid为空'}}" ]
+}

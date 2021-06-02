@@ -1,0 +1,78 @@
+{
+  "uid" : "c8fdb79e1bb492f3",
+  "name" : "登录失败用例-appId为特殊符号",
+  "fullName" : "testcase.test_login.TestLogin#test_yml",
+  "historyId" : "d84290471da0e863e23dcd83106411de",
+  "time" : {
+    "start" : 1622604111652,
+    "stop" : 1622604111775,
+    "duration" : 123
+  },
+  "description" : "请求body==>> {'appId': '@##￥%%……', 'openId': '7282'}",
+  "descriptionHtml" : "<p>请求body==&gt;&gt; {'appId': '@##￥%%……', 'openId': '7282'}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "请求body==>> {'appId': '@##￥%%……', 'openId': '7282'}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c0a311efde608a84",
+      "name" : "log",
+      "source" : "c0a311efde608a84.txt",
+      "type" : "text/plain",
+      "size" : 159
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "游客登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "51820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "login",
+    "value" : "{'case_name': '登录失败用例-appId为特殊符号', 'url': '/uc/v1/login/local', 'data': {'appId': '@##￥%%……', 'openId': '7282'}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'appId必须为大于等于0的整数'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8fdb79e1bb492f3.json",
+  "parameterValues" : [ "{'case_name': '登录失败用例-appId为特殊符号', 'url': '/uc/v1/login/local', 'data': {'appId': '@##￥%%……', 'openId': '7282'}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'appId必须为大于等于0的整数'}}" ]
+}

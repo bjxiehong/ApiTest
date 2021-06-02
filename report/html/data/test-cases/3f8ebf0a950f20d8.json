@@ -1,0 +1,78 @@
+{
+  "uid" : "3f8ebf0a950f20d8",
+  "name" : "登录失败用例-appId为0",
+  "fullName" : "testcase.test_login.TestLogin#test_yml",
+  "historyId" : "cf2376381e5f2b81aca9bb659321da16",
+  "time" : {
+    "start" : 1622536414689,
+    "stop" : 1622536414791,
+    "duration" : 102
+  },
+  "description" : "请求body==>> {'appId': '0', 'openId': '7282'}",
+  "descriptionHtml" : "<p>请求body==&gt;&gt; {'appId': '0', 'openId': '7282'}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "请求body==>> {'appId': '0', 'openId': '7282'}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1a8c1027ed69165e",
+      "name" : "log",
+      "source" : "1a8c1027ed69165e.txt",
+      "type" : "text/plain",
+      "size" : 146
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "游客登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "42288-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "login",
+    "value" : "{'case_name': '登录失败用例-appId为0', 'url': '/uc/v1/login/local', 'data': {'appId': '0', 'openId': '7282'}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'appId必须大于0'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f8ebf0a950f20d8.json",
+  "parameterValues" : [ "{'case_name': '登录失败用例-appId为0', 'url': '/uc/v1/login/local', 'data': {'appId': '0', 'openId': '7282'}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'appId必须大于0'}}" ]
+}

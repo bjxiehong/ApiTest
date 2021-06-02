@@ -1,0 +1,173 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "登录成功用例",
+        "uid" : "60e0dbbfb44537cd",
+        "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622604546456,
+          "stop" : 1622604546529,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '登录成功用例', 'url': '/uc/v1/login/local', 'data': {'appId': '10001', 'openId': '7282'}, 'except': {'code': 200, 'errCode': 0, 'errDesc': '成功'}}" ]
+      }, {
+        "name" : "登录失败用例-openId为空",
+        "uid" : "bb564608473c3274",
+        "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622604546797,
+          "stop" : 1622604546804,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '登录失败用例-openId为空', 'url': '/uc/v1/login/local', 'data': {'appId': '10001', 'openId': ''}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'openId为空'}}" ]
+      }, {
+        "name" : "登录失败用例-appId为空",
+        "uid" : "ae072b881fb444dd",
+        "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622604546996,
+          "stop" : 1622604547007,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '登录失败用例-appId为空', 'url': '/uc/v1/login/local', 'data': {'appId': '', 'openId': '7282'}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'appId为空'}}" ]
+      }, {
+        "name" : "登录失败用例-appId为字符",
+        "uid" : "d7dde35a2b0db024",
+        "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622604547175,
+          "stop" : 1622604547181,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '登录失败用例-appId为字符', 'url': '/uc/v1/login/local', 'data': {'appId': 'test001', 'openId': '7282'}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'appId必须为大于等于0的整数'}}" ]
+      }, {
+        "name" : "登录失败用例-appId为负数",
+        "uid" : "e71d0b79a0b1dd56",
+        "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622604547340,
+          "stop" : 1622604547347,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '登录失败用例-appId为负数', 'url': '/uc/v1/login/local', 'data': {'appId': '-100', 'openId': '7282'}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'appId必须为大于等于0的整数'}}" ]
+      }, {
+        "name" : "登录失败用例-appId为0",
+        "uid" : "9b8e1f33a961dd36",
+        "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622604547498,
+          "stop" : 1622604547504,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '登录失败用例-appId为0', 'url': '/uc/v1/login/local', 'data': {'appId': '0', 'openId': '7282'}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'appId必须大于0'}}" ]
+      }, {
+        "name" : "登录失败用例-appId为超长数字",
+        "uid" : "f56c3feb86ece060",
+        "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622604547678,
+          "stop" : 1622604547684,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '登录失败用例-appId为超长数字', 'url': '/uc/v1/login/local', 'data': {'appId': '12345678912345678111122', 'openId': '7282'}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'appId太大'}}" ]
+      }, {
+        "name" : "登录失败用例-appId为特殊符号",
+        "uid" : "534cecdf94363b0f",
+        "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622604547841,
+          "stop" : 1622604547848,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '登录失败用例-appId为特殊符号', 'url': '/uc/v1/login/local', 'data': {'appId': '@##￥%%……', 'openId': '7282'}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'appId必须为大于等于0的整数'}}" ]
+      } ],
+      "uid" : "cc0ea573530a3fefba2a1fc590840070"
+    }, {
+      "name" : "test_refreshToken",
+      "children" : [ {
+        "name" : "test_refreshtoken[refreshtoken0]",
+        "uid" : "cef37db204c7477",
+        "parentUid" : "8dc812bde2114763e4110a0f7585f6d9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622604548026,
+          "stop" : 1622604548026,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '成功用例', 'url': '/uc/v1/token', 'data': {'gid': '', 'refreshToken': ''}, 'except': {'code': 200, 'errCode': 0, 'errDesc': '成功'}}" ]
+      }, {
+        "name" : "test_refreshtoken[refreshtoken1]",
+        "uid" : "847a42099511874b",
+        "parentUid" : "8dc812bde2114763e4110a0f7585f6d9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622604548199,
+          "stop" : 1622604548199,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '失败用例-gid为空', 'url': '/uc/v1/token', 'data': {'gid': '', 'refreshToken': '38b3a3a6f-d6d6-5bac-afd2-523de4e3a86'}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'gid为空'}}" ]
+      }, {
+        "name" : "test_refreshtoken[refreshtoken2]",
+        "uid" : "95f283dc161dcab8",
+        "parentUid" : "8dc812bde2114763e4110a0f7585f6d9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622604548367,
+          "stop" : 1622604548367,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '失败用例-登录已过期', 'url': '/uc/v1/token', 'data': {'gid': '86052724', 'refreshToken': 'wrong'}, 'except': {'code': 200, 'errCode': 1004, 'errDesc': '登录认证过期，请重新登录(10042)'}}" ]
+      }, {
+        "name" : "test_refreshtoken[refreshtoken3]",
+        "uid" : "961930b00795b72c",
+        "parentUid" : "8dc812bde2114763e4110a0f7585f6d9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622604548529,
+          "stop" : 1622604548529,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '失败用例-refreshToken为空', 'url': '/uc/v1/token', 'data': {'gid': '86052724', 'refreshToken': ''}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'refreshToken为空'}}" ]
+      }, {
+        "name" : "test_refreshtoken[refreshtoken4]",
+        "uid" : "544410b99ec1f14c",
+        "parentUid" : "8dc812bde2114763e4110a0f7585f6d9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622604548692,
+          "stop" : 1622604548692,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '失败用例-gid为负数', 'url': '/uc/v1/token', 'data': {'gid': '-100', 'refreshToken': '38b3a3a6f-d6d6-5bac-afd2-523de4e3a86'}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'gid必须为大于等于0的整数'}}" ]
+      } ],
+      "uid" : "8dc812bde2114763e4110a0f7585f6d9"
+    } ],
+    "uid" : "559e15d0a5469c40d1629e36b5ae40ea"
+  } ],
+  "name" : "packages"
+}

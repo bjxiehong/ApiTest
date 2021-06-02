@@ -1,0 +1,25 @@
+#编写相关信息
+db_1:
+  db_host: "127.0.0.1"
+  db_user: "root"
+  db_password: "test"
+  db_name: "mytest"
+  db_charset: "utf-8"
+  db_port: "3306"
+
+db_2:
+  db_host: "192.168.10.20"
+  db_user: "root"
+  db_password: "123456"
+  db_name: "medical_db"
+  db_charset: "utf-8"
+  db_port: "3307"
+
+db_3:
+  db_host: "127.0.0.3"
+  db_user: "root"
+  db_password: "test"
+  db_name: "lianbiao"
+  db_charset: "utf-8"
+  db_port: "3306"
+

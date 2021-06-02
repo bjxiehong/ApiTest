@@ -1,0 +1,113 @@
+#游客登录测试用例
+---
+#测试用例名称
+"case_name": "登录成功用例"
+#url地址
+"url": "/uc/v1/login/local"
+#data
+"data":
+  appId: "10001"
+  openId: "7282"
+#期望结果
+"except":
+  code: 200
+  errCode: 0
+  errDesc: "成功"
+---
+#测试用例名称
+"case_name": "登录失败用例-openId为空"
+#url地址
+"url": "/uc/v1/login/local"
+#data
+"data":
+  appId: "10001"
+  openId: ""
+#期望结果
+"except":
+  code: 200
+  errCode: 1001
+  errDesc: "openId为空"
+---
+#测试用例名称
+"case_name": "登录失败用例-appId为空"
+#url地址
+"url": "/uc/v1/login/local"
+#data
+"data":
+  appId: ""
+  openId: "7282"
+#期望结果
+"except":
+  code: 200
+  errCode: 1001
+  errDesc: "appId为空"
+---
+#测试用例名称
+"case_name": "登录失败用例-appId为字符"
+#url地址
+"url": "/uc/v1/login/local"
+#data
+"data":
+  appId: "test001"
+  openId: "7282"
+#期望结果
+"except":
+  code: 200
+  errCode: 1001
+  errDesc: "appId必须为大于等于0的整数"
+---
+#测试用例名称
+"case_name": "登录失败用例-appId为负数"
+#url地址
+"url": "/uc/v1/login/local"
+#data
+"data":
+  appId: "-100"
+  openId: "7282"
+#期望结果
+"except":
+  code: 200
+  errCode: 1001
+  errDesc: "appId必须为大于等于0的整数"
+---
+#测试用例名称
+"case_name": "登录失败用例-appId为0"
+#url地址
+"url": "/uc/v1/login/local"
+#data
+"data":
+  appId: "0"
+  openId: "7282"
+#期望结果
+"except":
+  code: 200
+  errCode: 1001
+  errDesc: "appId必须大于0"
+---
+#测试用例名称
+"case_name": "登录失败用例-appId为超长数字"
+#url地址
+"url": "/uc/v1/login/local"
+#data
+"data":
+  appId: "12345678912345678111122"
+  openId: "7282"
+#期望结果
+"except":
+  code: 200
+  errCode: 1001
+  errDesc: "appId太大"
+---
+#测试用例名称
+"case_name": "登录失败用例-appId为特殊符号"
+#url地址
+"url": "/uc/v1/login/local"
+#data
+"data":
+  appId: "@##￥%%……"
+  openId: "7282"
+#期望结果
+"except":
+  code: 200
+  errCode: 1001
+  errDesc: "appId必须为大于等于0的整数"

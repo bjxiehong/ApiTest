@@ -1,0 +1,4 @@
+DEBUG    Requests:RequestsUtil.py:37 发送get请求
+DEBUG    Requests:RequestsUtil.py:39 发送的data数据==>> {'appId': '10001', 'openId': '7282'}
+DEBUG    Requests:RequestsUtil.py:37 发送get请求
+DEBUG    Requests:RequestsUtil.py:39 发送的data数据==>> {'gid': '86052724', 'refreshToken': '0be41666-45ac-5ee9-b46f-86ad9d021911'}

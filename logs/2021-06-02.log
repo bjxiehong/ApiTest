@@ -1,0 +1,29 @@
+2021-06-02 11:21:48,789 Requests 38 DEBUG 发送get请求
+2021-06-02 11:21:48,933 Requests 40 DEBUG 发送的data数据==>> {'appId': '10001', 'openId': '7282'}
+2021-06-02 11:21:48,955 Requests 38 DEBUG 发送get请求
+2021-06-02 11:21:49,106 Requests 40 DEBUG 发送的data数据==>> {'appId': '10001', 'openId': ''}
+2021-06-02 11:21:49,116 Requests 38 DEBUG 发送get请求
+2021-06-02 11:21:49,281 Requests 40 DEBUG 发送的data数据==>> {'appId': '', 'openId': '7282'}
+2021-06-02 11:21:49,289 Requests 38 DEBUG 发送get请求
+2021-06-02 11:21:51,286 Requests 40 DEBUG 发送的data数据==>> {'appId': 'test001', 'openId': '7282'}
+2021-06-02 11:21:51,295 Requests 38 DEBUG 发送get请求
+2021-06-02 11:21:51,404 Requests 40 DEBUG 发送的data数据==>> {'appId': '-100', 'openId': '7282'}
+2021-06-02 11:21:51,415 Requests 38 DEBUG 发送get请求
+2021-06-02 11:21:51,512 Requests 40 DEBUG 发送的data数据==>> {'appId': '0', 'openId': '7282'}
+2021-06-02 11:21:51,519 Requests 38 DEBUG 发送get请求
+2021-06-02 11:21:51,647 Requests 40 DEBUG 发送的data数据==>> {'appId': '12345678912345678111122', 'openId': '7282'}
+2021-06-02 11:21:51,657 Requests 38 DEBUG 发送get请求
+2021-06-02 11:21:51,774 Requests 40 DEBUG 发送的data数据==>> {'appId': '@##￥%%……', 'openId': '7282'}
+2021-06-02 11:21:51,781 Requests 38 DEBUG 发送get请求
+2021-06-02 11:21:51,914 Requests 40 DEBUG 发送的data数据==>> {'appId': '10001', 'openId': '7282'}
+2021-06-02 11:21:51,919 Requests 38 DEBUG 发送get请求
+2021-06-02 11:21:52,049 Requests 40 DEBUG 发送的data数据==>> {'gid': '86052724', 'refreshToken': '13fdb40f-c217-5e67-af8f-fe3f7ff370b0'}
+2021-06-02 11:21:52,056 Requests 38 DEBUG 发送get请求
+2021-06-02 11:21:52,230 Requests 40 DEBUG 发送的data数据==>> {'gid': '', 'refreshToken': '38b3a3a6f-d6d6-5bac-afd2-523de4e3a86'}
+2021-06-02 11:21:52,237 Requests 38 DEBUG 发送get请求
+2021-06-02 11:21:52,388 Requests 40 DEBUG 发送的data数据==>> {'gid': '86052724', 'refreshToken': 'wrong'}
+2021-06-02 11:21:52,398 Requests 38 DEBUG 发送get请求
+2021-06-02 11:21:52,492 Requests 40 DEBUG 发送的data数据==>> {'gid': '86052724', 'refreshToken': ''}
+2021-06-02 11:21:52,503 Requests 38 DEBUG 发送get请求
+2021-06-02 11:21:52,595 Requests 40 DEBUG 发送的data数据==>> {'gid': '-100', 'refreshToken': '38b3a3a6f-d6d6-5bac-afd2-523de4e3a86'}
+2021-06-02 11:21:52,605 /Users/xhong/Documents/xiehong/Api_Autotest/utils/LogUtil.py 34 INFO 报告地址

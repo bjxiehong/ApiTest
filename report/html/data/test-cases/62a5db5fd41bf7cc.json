@@ -1,0 +1,105 @@
+{
+  "uid" : "62a5db5fd41bf7cc",
+  "name" : "失败用例-gid为负数",
+  "fullName" : "testcase.test_refreshToken.Test_refreToken#test_refreshtoken",
+  "historyId" : "a35b4f787259784e2713f3124ddd0c97",
+  "time" : {
+    "start" : 1622604112498,
+    "stop" : 1622604112596,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1622604111778,
+      "stop" : 1622604111914,
+      "duration" : 136
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d8950bd3c82230d4",
+      "name" : "log",
+      "source" : "d8950bd3c82230d4.txt",
+      "type" : "text/plain",
+      "size" : 185
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1622604112597,
+      "stop" : 1622604112597,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "刷新token"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_refreshToken"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_refreToken"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "51820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_refreshToken"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "refreshtoken",
+    "value" : "{'case_name': '失败用例-gid为负数', 'url': '/uc/v1/token', 'data': {'gid': '-100', 'refreshToken': '38b3a3a6f-d6d6-5bac-afd2-523de4e3a86'}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'gid必须为大于等于0的整数'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62a5db5fd41bf7cc.json",
+  "parameterValues" : [ "{'case_name': '失败用例-gid为负数', 'url': '/uc/v1/token', 'data': {'gid': '-100', 'refreshToken': '38b3a3a6f-d6d6-5bac-afd2-523de4e3a86'}, 'except': {'code': 200, 'errCode': 1001, 'errDesc': 'gid必须为大于等于0的整数'}}" ]
+}

@@ -1,0 +1,131 @@
+[ {
+  "uid" : "ae072b881fb444dd",
+  "name" : "登录失败用例-appId为空",
+  "time" : {
+    "start" : 1622604546996,
+    "stop" : 1622604547007,
+    "duration" : 11
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "95f283dc161dcab8",
+  "name" : "test_refreshtoken[refreshtoken2]",
+  "time" : {
+    "start" : 1622604548367,
+    "stop" : 1622604548367,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f56c3feb86ece060",
+  "name" : "登录失败用例-appId为超长数字",
+  "time" : {
+    "start" : 1622604547678,
+    "stop" : 1622604547684,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9b8e1f33a961dd36",
+  "name" : "登录失败用例-appId为0",
+  "time" : {
+    "start" : 1622604547498,
+    "stop" : 1622604547504,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d7dde35a2b0db024",
+  "name" : "登录失败用例-appId为字符",
+  "time" : {
+    "start" : 1622604547175,
+    "stop" : 1622604547181,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "847a42099511874b",
+  "name" : "test_refreshtoken[refreshtoken1]",
+  "time" : {
+    "start" : 1622604548199,
+    "stop" : 1622604548199,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e71d0b79a0b1dd56",
+  "name" : "登录失败用例-appId为负数",
+  "time" : {
+    "start" : 1622604547340,
+    "stop" : 1622604547347,
+    "duration" : 7
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "544410b99ec1f14c",
+  "name" : "test_refreshtoken[refreshtoken4]",
+  "time" : {
+    "start" : 1622604548692,
+    "stop" : 1622604548692,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cef37db204c7477",
+  "name" : "test_refreshtoken[refreshtoken0]",
+  "time" : {
+    "start" : 1622604548026,
+    "stop" : 1622604548026,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "961930b00795b72c",
+  "name" : "test_refreshtoken[refreshtoken3]",
+  "time" : {
+    "start" : 1622604548529,
+    "stop" : 1622604548529,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bb564608473c3274",
+  "name" : "登录失败用例-openId为空",
+  "time" : {
+    "start" : 1622604546797,
+    "stop" : 1622604546804,
+    "duration" : 7
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "60e0dbbfb44537cd",
+  "name" : "登录成功用例",
+  "time" : {
+    "start" : 1622604546456,
+    "stop" : 1622604546529,
+    "duration" : 73
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "534cecdf94363b0f",
+  "name" : "登录失败用例-appId为特殊符号",
+  "time" : {
+    "start" : 1622604547841,
+    "stop" : 1622604547848,
+    "duration" : 7
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

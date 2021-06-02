@@ -1,0 +1,16 @@
+BASE:
+  #log等级
+  log_level: "debug"
+  #扩展名
+  log_extension: ".log"
+  test:
+    url: "http://127.0.0,.1:8001"
+
+
+email:
+  smtpserver: "smtp.163.com"
+  username: "test@163.com"
+  password: "test@test"
+  receiver:
+    - "60510000@qq.com"
+
